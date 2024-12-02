@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: com.ecommerce.app.EcommerceAppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 5.984 s <<< FAILURE! -- in com.ecommerce.app.EcommerceAppApplicationTests
+com.ecommerce.app.EcommerceAppApplicationTests.testCartControllerEndpoints -- Time elapsed: 0.935 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <404 NOT_FOUND>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.ecommerce.app.EcommerceAppApplicationTests.testCartControllerEndpoints(EcommerceAppApplicationTests.java:94)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ecommerce.app.EcommerceAppApplicationTests.testRequiredClassesExist -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class not found: com.ecommerce.app.controller.CatalogController
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.ecommerce.app.EcommerceAppApplicationTests.assertClassExists(EcommerceAppApplicationTests.java:126)
+	at com.ecommerce.app.EcommerceAppApplicationTests.testRequiredClassesExist(EcommerceAppApplicationTests.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ecommerce.app.EcommerceAppApplicationTests.testJavaPackageStructure -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Directory not found: /src/main/java/com/ecommerce/app/controller ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.ecommerce.app.EcommerceAppApplicationTests.assertDirectoryExists(EcommerceAppApplicationTests.java:119)
+	at com.ecommerce.app.EcommerceAppApplicationTests.testJavaPackageStructure(EcommerceAppApplicationTests.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ecommerce.app.EcommerceAppApplicationTests.testControllerMethodSignatures -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Required controller classes not found
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.ecommerce.app.EcommerceAppApplicationTests.testControllerMethodSignatures(EcommerceAppApplicationTests.java:108)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ecommerce.app.EcommerceAppApplicationTests.testCatalogControllerEndpoints -- Time elapsed: 0.020 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <404 NOT_FOUND>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.ecommerce.app.EcommerceAppApplicationTests.testCatalogControllerEndpoints(EcommerceAppApplicationTests.java:82)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
